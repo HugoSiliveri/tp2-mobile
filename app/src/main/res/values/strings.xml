@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">TP2</string>
+    <string name="sensor_activity">SensorList Activity</string>
+    <string name="title_activity_sensor_list">SensorList</string>
+</resources>

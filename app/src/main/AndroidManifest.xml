@@ -12,6 +12,10 @@
         android:supportsRtl="true"
         tools:targetApi="31">
         <activity
+            android:name=".SensorAvailability"
+            android:exported="false"
+            android:label="@string/title_activity_sensor_availability" />
+        <activity
             android:name=".SensorList"
             android:exported="false"
             android:label="@string/title_activity_sensor_list" />

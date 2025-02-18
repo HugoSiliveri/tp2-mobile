@@ -9,14 +9,12 @@ import androidx.activity.ComponentActivity
 
 class SensorList : ComponentActivity() {
 
-    private lateinit var sensorManager : SensorManager
-
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_sensor_list)
 
         val listViewSensorList = findViewById<ListView>(R.id.listViewSensorList)
-        sensorManager = getSystemService(SENSOR_SERVICE) as SensorManager
+        val sensorManager = getSystemService(SENSOR_SERVICE) as SensorManager
 
         val sensorList = sensorManager.getSensorList(Sensor.TYPE_ALL)
         val sensors = mutableListOf<String>()

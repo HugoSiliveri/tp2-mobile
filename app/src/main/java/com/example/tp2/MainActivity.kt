@@ -15,5 +15,11 @@ class MainActivity : ComponentActivity() {
             val intent = Intent(this, SensorList::class.java)
             startActivity(intent)
         }
+
+        val buttonSensorAvailability = findViewById<Button>(R.id.buttonSensorAvailability)
+        buttonSensorAvailability.setOnClickListener {
+            val intent2 = Intent(this, SensorAvailability::class.java)
+            startActivity(intent2)
+        }
     }
 }

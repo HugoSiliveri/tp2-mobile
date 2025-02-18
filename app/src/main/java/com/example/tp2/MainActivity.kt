@@ -21,5 +21,11 @@ class MainActivity : ComponentActivity() {
             val intent2 = Intent(this, SensorAvailability::class.java)
             startActivity(intent2)
         }
+
+        val buttonAccelerometer = findViewById<Button>(R.id.buttonAccelerometer)
+        buttonAccelerometer.setOnClickListener {
+            val intent3 = Intent(this, Accelerometer::class.java)
+            startActivity(intent3)
+        }
     }
 }

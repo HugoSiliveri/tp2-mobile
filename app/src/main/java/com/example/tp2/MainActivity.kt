@@ -27,5 +27,11 @@ class MainActivity : ComponentActivity() {
             val intent3 = Intent(this, Accelerometer::class.java)
             startActivity(intent3)
         }
+
+        val buttonDirection = findViewById<Button>(R.id.buttonDirection)
+        buttonDirection.setOnClickListener {
+            val intent4 = Intent(this, Direction::class.java)
+            startActivity(intent4)
+        }
     }
 }

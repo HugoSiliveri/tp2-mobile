@@ -12,6 +12,10 @@
         android:supportsRtl="true"
         tools:targetApi="31">
         <activity
+            android:name=".Direction"
+            android:exported="false"
+            android:label="@string/title_activity_direction" />
+        <activity
             android:name=".Accelerometer"
             android:exported="false"
             android:label="@string/title_activity_accelerometer" />

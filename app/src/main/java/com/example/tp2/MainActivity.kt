@@ -18,20 +18,38 @@ class MainActivity : ComponentActivity() {
 
         val buttonSensorAvailability = findViewById<Button>(R.id.buttonSensorAvailability)
         buttonSensorAvailability.setOnClickListener {
-            val intent2 = Intent(this, SensorAvailability::class.java)
-            startActivity(intent2)
+            val intent = Intent(this, SensorAvailability::class.java)
+            startActivity(intent)
         }
 
         val buttonAccelerometer = findViewById<Button>(R.id.buttonAccelerometer)
         buttonAccelerometer.setOnClickListener {
-            val intent3 = Intent(this, Accelerometer::class.java)
-            startActivity(intent3)
+            val intent = Intent(this, Accelerometer::class.java)
+            startActivity(intent)
         }
 
         val buttonDirection = findViewById<Button>(R.id.buttonDirection)
         buttonDirection.setOnClickListener {
-            val intent4 = Intent(this, Direction::class.java)
-            startActivity(intent4)
+            val intent = Intent(this, Direction::class.java)
+            startActivity(intent)
+        }
+
+        val buttonFlashlight = findViewById<Button>(R.id.buttonFlashlight)
+        buttonFlashlight.setOnClickListener {
+            val intent = Intent(this, Flashlight::class.java)
+            startActivity(intent)
+        }
+
+        val buttonProximity = findViewById<Button>(R.id.buttonProximity)
+        buttonProximity.setOnClickListener {
+            val intent = Intent(this, Proximity::class.java)
+            startActivity(intent)
+        }
+
+        val buttonGeolocation = findViewById<Button>(R.id.buttonGeolocation)
+        buttonGeolocation.setOnClickListener {
+            val intent = Intent(this, Geolocation::class.java)
+            startActivity(intent)
         }
     }
 }

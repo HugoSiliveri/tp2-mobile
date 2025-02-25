@@ -8,4 +8,12 @@
     <string name="title_activity_accelerometer">Accelerometer</string>
     <string name="title_activity_direction">Direction</string>
     <string name="direction_activity">Direction Activity</string>
+    <string name="title_activity_flashlight">Flashlight</string>
+    <string name="flashlight_activity">Flashlight Activity</string>
+    <string name="title_activity_proximity">Proximity</string>
+    <string name="proximity_activity">Proximity Activity</string>
+    <string name="proximityimage">ProximityImage</string>
+    <string name="title_activity_geolocation">Geolocation</string>
+    <string name="waiting_to_get_the_location">Waiting to get the location...</string>
+    <string name="geolocation_activity">Geolocation Activity</string>
 </resources>

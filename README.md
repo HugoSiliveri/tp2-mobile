@@ -2,7 +2,7 @@
 
 Hugo SILIVERI
 
-Lien du Git si jamais : https://github.com/HugoSiliveri/tp2-mobile
+Lien du Git : https://github.com/HugoSiliveri/tp2-mobile
 
 ### Environnement
 
@@ -21,6 +21,10 @@ Lien du Git si jamais : https://github.com/HugoSiliveri/tp2-mobile
 - `Flashlight.kt` : Allumage/Eteignage de la lampe-torche en secouant le téléphone (exercice 5)
 - `Proximity.kt` : Affichage d'images en fonction de la proximité du capteur (exercice 6)
 - `Geolocation.kt` : Afficahge des coordonnées géographiques du téléphone (exercice 7)
+- `CountriesList.kt` : Affichage de la liste des pays (exercice 8)
+- `CountriesListInfo.kt` : Affichage des informations détaillées d'un pays (exercice 8)
+- `CountriesListAdapter.kt` : Adapteur de la liste des pays (exercice 8)
+- `CountryData.kt` : Données des pays (exercice 8 et 9)
 
 ### Exercice 1
 
@@ -58,3 +62,11 @@ L'image du chat qui regarde c'est pour un objet loin.
 ### Exercice 7
 
 <img src="screenshots/exo7.jpg" alt="exo7" width="200"/>
+
+### Exercice 8
+
+Les drapeaux étaient au format SVG, pour les utiliser dans les ImageView j'ai du les transformer en 
+VectorAsset. Cependant, pour le drapeau des Etats-Unis, cela donne un résultat étrange avec les étoiles
+
+<img src="screenshots/exo8-1.png" alt="exo7" width="200"/>
+<img src="screenshots/exo8-2.png" alt="exo7" width="200"/>

@@ -55,4 +55,11 @@
         android:gravity="center"
         android:text="@string/geolocation_activity" />
 
+    <Button
+        android:id="@+id/buttonCountriesList"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="@string/countries_list_activity" />
+
 </LinearLayout>

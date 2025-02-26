@@ -51,5 +51,11 @@ class MainActivity : ComponentActivity() {
             val intent = Intent(this, Geolocation::class.java)
             startActivity(intent)
         }
+
+        val buttonCountriesList = findViewById<Button>(R.id.buttonCountriesList)
+        buttonCountriesList.setOnClickListener {
+            val intent = Intent(this, CountriesList::class.java)
+            startActivity(intent)
+        }
     }
 }

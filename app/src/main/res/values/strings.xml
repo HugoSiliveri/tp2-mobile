@@ -16,4 +16,9 @@
     <string name="title_activity_geolocation">Geolocation</string>
     <string name="waiting_to_get_the_location">Waiting to get the location...</string>
     <string name="geolocation_activity">Geolocation Activity</string>
+    <string name="title_activity_countries_list">CountriesList</string>
+    <string name="title_activity_countries_list_info">CountriesListInfo</string>
+    <string name="countries_list_activity">CountriesList Activity</string>
+    <string name="flag">Flag</string>
+    <string name="title_activity_countries_fragment">CountriesFragment</string>
 </resources>

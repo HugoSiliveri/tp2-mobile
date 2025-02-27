@@ -21,7 +21,7 @@ class CountriesFragmentInfo: Fragment() {
         super.onViewCreated(view, savedInstanceState)
 
         val countryName = arguments?.getString("COUNTRY_NAME") ?: ""
-        val country = CountryData.getCountryByName(countryName)
+        val country = CountriesData.getCountryByName(countryName)
 
         if (country != null) {
             view.findViewById<TextView>(R.id.textViewCountry).text = country.name

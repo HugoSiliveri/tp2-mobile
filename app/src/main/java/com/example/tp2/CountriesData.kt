@@ -8,7 +8,7 @@ data class Country(
     val flagResId: Int
 )
 
-object CountryData {
+object CountriesData {
     val countries = listOf(
         Country("France", "Paris", 68373433, 672051.0,R.drawable.france),
         Country("Germany", "Berlin", 84708010, 	357588.0, R.drawable.germany),

@@ -11,7 +11,7 @@ class CountriesListInfo : ComponentActivity() {
         setContentView(R.layout.activity_countries_info)
 
         val countryName = intent.getStringExtra("COUNTRY_NAME") ?: ""
-        val country = CountryData.getCountryByName(countryName)
+        val country = CountriesData.getCountryByName(countryName)
 
         if (country != null) {
             findViewById<TextView>(R.id.textViewCountry).text = country.name

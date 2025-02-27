@@ -23,8 +23,11 @@ Lien du Git : https://github.com/HugoSiliveri/tp2-mobile
 - `Geolocation.kt` : Afficahge des coordonnées géographiques du téléphone (exercice 7)
 - `CountriesList.kt` : Affichage de la liste des pays (exercice 8)
 - `CountriesListInfo.kt` : Affichage des informations détaillées d'un pays (exercice 8)
-- `CountriesListAdapter.kt` : Adapteur de la liste des pays (exercice 8)
+- `CountriesAdapter.kt` : Adapteur de la liste des pays (exercice 8 et 9)
 - `CountryData.kt` : Données des pays (exercice 8 et 9)
+- `CountriesFragmentActivity.kt` : Activité contenant les fragments (exercice 9)
+- `CountriesFragment.kt` : Fragment de la liste des pays (exercice 9)
+- `CountriesFragmentInfo.kt` : Fragment des informations détaillées d'un pays (exercice 9)
 
 ### Exercice 1
 

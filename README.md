@@ -68,5 +68,11 @@ L'image du chat qui regarde c'est pour un objet loin.
 Les drapeaux étaient au format SVG, pour les utiliser dans les ImageView j'ai du les transformer en 
 VectorAsset. Cependant, pour le drapeau des Etats-Unis, cela donne un résultat étrange avec les étoiles
 
-<img src="screenshots/exo8-1.png" alt="exo7" width="200"/>
-<img src="screenshots/exo8-2.png" alt="exo7" width="200"/>
+<img src="screenshots/exo8-1.png" alt="exo81" width="200"/>
+<img src="screenshots/exo8-2.png" alt="exo82" width="200"/>
+
+### Exercice 9
+
+
+<img src="screenshots/exo9-1.png" alt="exo91" width="200"/>
+<img src="screenshots/exo9-2.png" alt="exo92" width="200"/>

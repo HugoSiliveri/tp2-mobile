@@ -21,4 +21,5 @@
     <string name="countries_list_activity">CountriesList Activity</string>
     <string name="flag">Flag</string>
     <string name="title_activity_countries_fragment">CountriesFragment</string>
+    <string name="countries_fragment_activity">CountriesFragment Activity</string>
 </resources>

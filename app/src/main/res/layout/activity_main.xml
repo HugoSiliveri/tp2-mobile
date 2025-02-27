@@ -62,4 +62,11 @@
         android:gravity="center"
         android:text="@string/countries_list_activity" />
 
+    <Button
+        android:id="@+id/buttonCountriesFragment"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="@string/countries_fragment_activity" />
+
 </LinearLayout>

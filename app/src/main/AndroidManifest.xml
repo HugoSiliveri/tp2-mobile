@@ -31,9 +31,10 @@
         android:supportsRtl="true"
         tools:targetApi="31">
         <activity
-            android:name=".CountriesFragment"
+            android:name=".CountriesFragmentActivity"
             android:exported="false"
-            android:label="@string/title_activity_countries_fragment" />
+            android:label="@string/title_activity_countries_fragment"
+            android:theme="@style/Theme.AppCompat.Light.DarkActionBar"/>
         <activity
             android:name=".CountriesListInfo"
             android:exported="false"

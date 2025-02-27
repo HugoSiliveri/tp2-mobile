@@ -9,7 +9,7 @@ import androidx.recyclerview.widget.RecyclerView
 class CountriesList : ComponentActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_countries_list)
+        setContentView(R.layout.activity_countries)
 
         val recyclerView = findViewById<RecyclerView>(R.id.recyclerViewCountries)
         recyclerView.layoutManager = LinearLayoutManager(this)

@@ -8,7 +8,7 @@ import androidx.activity.ComponentActivity
 class CountriesListInfo : ComponentActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_countries_list_info)
+        setContentView(R.layout.activity_countries_info)
 
         val countryName = intent.getStringExtra("COUNTRY_NAME") ?: ""
         val country = CountryData.getCountryByName(countryName)

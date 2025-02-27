@@ -57,5 +57,11 @@ class MainActivity : ComponentActivity() {
             val intent = Intent(this, CountriesList::class.java)
             startActivity(intent)
         }
+
+        val buttonCountriesFragment = findViewById<Button>(R.id.buttonCountriesFragment)
+        buttonCountriesFragment.setOnClickListener {
+            val intent = Intent(this, CountriesFragmentActivity::class.java)
+            startActivity(intent)
+        }
     }
 }
